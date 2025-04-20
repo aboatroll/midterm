@@ -67,7 +67,6 @@ while cap.isOpened():
         left_confirmed_points = None
         right_confirmed_points = None
 
-    # 每一幀都直接更新確認線條（無穩定延遲）
     if new_left_confirmed:
         left_confirmed_points = new_left_confirmed
     if new_right_confirmed:
